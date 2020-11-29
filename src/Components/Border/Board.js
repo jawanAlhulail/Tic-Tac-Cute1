@@ -14,7 +14,7 @@ class Board extends React.Component {
   }
   render() {
     return (
-      <div>
+      <div className="Board">
         <div className="Border-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
